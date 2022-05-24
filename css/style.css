@@ -1417,7 +1417,7 @@ b, strong {
 }
 
 .feature_3 .block {
-  border: 2px solid #EBEAED;
+  border: 2px solid #2f4687;
 }
 @media (max-width: 1199.98px) {
   .feature_3[class^=pb-], .feature_3[class*=" pb-"] {
@@ -4971,5 +4971,7 @@ svg{
 }
 
 .parallelogram {
-	transform: skew(-11.5deg);
+    	-webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
+
