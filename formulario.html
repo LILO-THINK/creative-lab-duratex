@@ -21,7 +21,7 @@
 
 <body>
 	<!-- Header -->
-	<header class="header_8 bg-action-2 color-filter-dark-1" data-bg-src="i/lampada.svg" data-bg-src-2x="i/lampada.svg">
+	<header class="header_8 bg-dark color-filter-dark-1" data-bg-src="i/lampada.svg" data-bg-src-2x="i/lampada.svg">
 		<div class="container px-xl-0 text-center color-white">
 			<div class="slider dots-60">
 				<div class="row justify-content-center">
@@ -76,9 +76,7 @@
 							Duratex, co-criar para Viver Melhor!
 						</h2>
 						<div class="mb-35 color-heading text-adaptive" data-aos="fade-down" data-aos-delay="0">
-							Olá! Obrigado pela disposição em participar da nossa pesquisa. Nosso objetivo com esse
-							levantamento é ajudar a trocar ideias e gerar inovação com profissionais que buscam soluções
-							para melhor viver!
+							Olá! Obrigado pela sua disposição em participar da nossa pesquisa. Nosso objetivo com essa pesquisa é ajudar a entender melhor nosso consumidor para poder desenvolver produtos que atendam melhor suas necessidades.
 						</div>
 						<!-- <div class="row">
 							<div class="col-lg-6" data-aos="fade-down" data-aos-delay="250">
@@ -97,7 +95,7 @@
 							</div>
 						</div> -->
 						<div data-aos="fade-down" data-aos-delay="250">
-							<div class="mb-10 f-12 semibold text-uppercase sp-20">
+							<div class="mb-10 f-14 regular text-uppercase sp-20">
 								Qual o Estado do Brasil que você mora?
 							</div>
 							<select id="estado" name="entry.1911885905" placeholder="sua resposta" required="required"
@@ -134,7 +132,7 @@
 							</select>
 						</div>
 						<div data-aos="fade-down" data-aos-delay="250">
-							<div class="mb-10 f-12 semibold text-uppercase sp-20">
+							<div class="mb-10 f-14 regular text-uppercase sp-20">
 								Qual a sua faixa etária?
 							</div>
 							<select id="etaria" name="entry.895249913" placeholder="sua resposta" required="required"
@@ -149,7 +147,7 @@
 							</select>
 						</div>
 						<div data-aos="fade-down" data-aos-delay="250">
-							<div class="mb-10 f-12 semibold text-uppercase sp-20">
+							<div class="mb-10 f-14 regular text-uppercase sp-20">
 								Qual sua identidade de gênero?
 							</div>
 							<select id="genero" name="entry.entry.1561433433" placeholder="sua resposta"
@@ -158,39 +156,82 @@
 								<option value="" disabled selected hidden>Selecione</option>
 								<option value="masculino">Masculino</option>
 								<option value="feminino">Feminino</option>
-								<option value="transgenero">Transgênero</option>
-								<option value="naobinario">Não binário</option>
+								<option value="outros">Outro</option>
 							</select>
 						</div>
 						<div data-aos="fade-down" data-aos-delay="250">
-							<div class="mb-10 f-12 semibold text-uppercase sp-20">
-								Qual a sua escolaridade?
+							<div class="mb-10 f-14 regular text-uppercase sp-20">
+								Quando você compra um móvel para <strong class="heavy">dormitório</strong>, quais os acabamentos que você mais gosta?
 							</div>
-							<select id="escolaridade" name="entry.1589277149" placeholder="sua resposta"
+							<select id="dormitorio" name="entry.1589277149" placeholder="sua resposta"
 								required="required"
 								class="input mb-25 w-full lg border-gray focus-action-1 color-heading placeholder-gray text-center text-md-left noradius">
 								<option value="" disabled selected hidden>Selecione</option>
-								<option value="nivel-1">Nível 1 - ensino fundamental incompleto</option>
-								<option value="nivel-2">Nível 2 - fundamental completo</option>
-								<option value="nivel-3">Nível 3 - ensino médio completo</option>
-								<option value="nivel-4">Nível 4 - superior completo</option>
-								<option value="nivel-5">Nível 5 - pós-graduação</option>
+								<option value="madeira">Madeira</option>
+								<option value="cor">Cor sólida</option>
+								<option value="tecido">Tecido</option>
+								<option value="pedra">Pedra</option>
+								<option value="outro">Outro</option>
 							</select>
 						</div>
 						<div data-aos="fade-down" data-aos-delay="250">
-							<div class="mb-10 f-12 semibold text-uppercase sp-20">
-								Quantas pessoas em média compartilham o espaço e os móveis na sua casa?
+							<div class="mb-10 f-14 regular text-uppercase sp-20">
+								Quando você compra um móvel para <strong>cozinha</strong>, quais os acabamentos que você mais gosta?
 							</div>
-							<input type="text" name="entry.1821361076" placeholder="sua resposta" required="required"
+							<select id="cozinha" name="entry.1821361076" placeholder="sua resposta"
+								required="required"
 								class="input mb-25 w-full lg border-gray focus-action-1 color-heading placeholder-gray text-center text-md-left noradius">
+								<option value="" disabled selected hidden>Selecione</option>
+								<option value="madeira">Madeira</option>
+								<option value="cor">Cor sólida</option>
+								<option value="tecido">Tecido</option>
+								<option value="pedra">Pedra</option>
+								<option value="outro">Outro</option>
+							</select>
 						</div>
 						<div data-aos="fade-down" data-aos-delay="250">
-							<div class="mb-10 f-12 semibold text-uppercase sp-20">
-								O que você procura quando compra um móvel de madeira? Pensando no desenho, cor, toque,
-								design e superfície.
+							<div class="mb-10 f-14 regular text-uppercase sp-20">
+								Quando você compra um móvel para <strong>sala</strong>, quais os acabamentos que você mais gosta?
 							</div>
-							<input type="text" name="entry.1895713735" placeholder="sua resposta" required="required"
+							<select id="sala" name="entry.1895713735" placeholder="sua resposta"
+								required="required"
 								class="input mb-25 w-full lg border-gray focus-action-1 color-heading placeholder-gray text-center text-md-left noradius">
+								<option value="" disabled selected hidden>Selecione</option>
+								<option value="madeira">Madeira</option>
+								<option value="cor">Cor sólida</option>
+								<option value="tecido">Tecido</option>
+								<option value="pedra">Pedra</option>
+								<option value="outro">Outro</option>
+							</select>
+						</div>
+						<div data-aos="fade-down" data-aos-delay="250">
+							<div class="mb-10 f-14 regular text-uppercase sp-20">
+								O que você leva em consideração quando vai escolher a superfície de um móvel?
+							</div>
+							<select id="sala" name="entry.599065737" placeholder="sua resposta"
+								required="required"
+								class="input mb-25 w-full lg border-gray focus-action-1 color-heading placeholder-gray text-center text-md-left noradius">
+								<option value="" disabled selected hidden>Selecione</option>
+								<option value="textura">Toque/ textura da superfíciea</option>
+								<option value="limpeza">Facilidade de limpeza</option>
+								<option value="preco">Preço</option>
+								<option value="sustentabilidade">Sustentabilidade</option>
+								<option value="outro">Outro</option>
+							</select>
+						</div>
+						<div data-aos="fade-down" data-aos-delay="250">
+							<div class="mb-10 f-14 regular text-uppercase sp-20">
+								Qual o seu estilo?
+							</div>
+							<select id="sala" name="entry.1302788533" placeholder="sua resposta"
+								required="required"
+								class="input mb-25 w-full lg border-gray focus-action-1 color-heading placeholder-gray text-center text-md-left noradius">
+								<option value="" disabled selected hidden>Selecione</option>
+								<option value="classico">Clássico - Atmosfera luxuosa com cores sofisticadas e objetos ornamentais criando um ambiente elegante.</option>
+								<option value="minimalista">Minimalista -  “menos é mais” - simplicidade do mobiliário e valorização da comodidade e do conforto.</option>
+								<option value="natural">Natural - Ambientes acolhedores, o uso de texturas variadas, mistura de estilos e referências da natureza.</option>
+								<option value="outro">Outro</option>
+							</select>
 						</div>
 						<div class="mt-15 d-sm-flex flex-wrap align-items-center buttons" data-aos="fade-down"
 							data-aos-delay="500">
