@@ -4969,3 +4969,7 @@ svg{
     stroke-dashoffset: 0;
   }
 }
+
+.parallelogram {
+	transform: skew(-11.5deg);
+}
